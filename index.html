@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Raf Meyer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+font-family:Inter,sans-serif;
+background:#0d1117;
+color:white;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+min-height:100vh;
+
+overflow-x:hidden;
+
+}
+
+body:before{
+
+content:"";
+position:fixed;
+width:700px;
+height:700px;
+
+background:radial-gradient(circle,#4f46e520,transparent);
+
+top:-250px;
+right:-250px;
+
+}
+
+body:after{
+
+content:"";
+position:fixed;
+width:700px;
+height:700px;
+
+background:radial-gradient(circle,#00d4ff18,transparent);
+
+bottom:-250px;
+left:-250px;
+
+}
+
+.container{
+
+width:min(900px,92%);
+z-index:2;
+
+}
+
+h1{
+
+font-size:70px;
+font-weight:800;
+
+}
+
+.subtitle{
+
+margin-top:8px;
+
+font-size:22px;
+
+color:#8b949e;
+
+}
+
+.small{
+
+margin-top:40px;
+
+font-size:18px;
+
+color:#c9d1d9;
+
+line-height:1.8;
+
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:22px;
+
+margin-top:45px;
+
+}
+
+.card{
+
+background:#161b22;
+
+border:1px solid #30363d;
+
+border-radius:18px;
+
+padding:24px;
+
+transition:.25s;
+
+text-decoration:none;
+
+color:white;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+border-color:#58a6ff;
+
+box-shadow:0 15px 40px #00000050;
+
+}
+
+.icon{
+
+font-size:42px;
+
+margin-bottom:15px;
+
+}
+
+.title{
+
+font-size:24px;
+
+font-weight:700;
+
+margin-bottom:10px;
+
+}
+
+.desc{
+
+color:#8b949e;
+
+line-height:1.6;
+
+}
+
+.footer{
+
+margin-top:55px;
+
+color:#6e7681;
+
+font-size:14px;
+
+}
+
+.footer a{
+
+color:#58a6ff;
+
+text-decoration:none;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Raf Meyer</h1>
+
+<div class="subtitle">
+🇱🇺 Luxembourgish developer • #OnlyHTML
+</div>
+
+<div class="small">
+
+Here are a few fun little projects built in a little country in the center of Europa (you guess it, it's luxembourg), entirely in HTML, CSS and JavaScript.
+No frameworks.
+No dependencies.
+Just simple websites that do one thing well.
+
+</div>
+
+<div class="grid">
+
+<a class="card"
+href="https://rafmeyer.github.io/EnigmaX/"
+target="_blank">
+
+<div class="icon">⚙️</div>
+
+<div class="title">
+
+Enigma X
+
+</div>
+
+<div class="desc">
+
+The famous WWII Enigma machine,
+rebuilt from scratch with a modern interface
+and much stronger encryption.
+
+</div>
+
+</a>
+
+<a class="card"
+href="https://rafmeyer.github.io/simple-timer/"
+target="_blank">
+
+<div class="icon">⏱️</div>
+
+<div class="title">
+
+Simple Timer
+
+</div>
+
+<div class="desc">
+
+A clean countdown timer.
+
+No ads.
+
+No distractions.
+
+Just a timer.
+
+</div>
+
+</a>
+
+<a class="card"
+href="https://rafmeyer.github.io/simple-calculator/"
+target="_blank">
+
+<div class="icon">🧮</div>
+
+<div class="title">
+
+Simple Calculator
+
+</div>
+
+<div class="desc">
+
+An easy calculator.
+
+No scientific rubbish.
+
+Just the numbers you actually need.
+
+</div>
+
+</a>
+
+<a class="card"
+href="https://rafmeyer.github.io/password-lab/"
+target="_blank">
+
+<div class="icon">🔐</div>
+
+<div class="title">
+
+Password Lab
+
+</div>
+
+<div class="desc">
+
+Generate secure passwords,
+measure their strength,
+estimate crack time
+and improve weak passwords.
+
+</div>
+
+</a>
+
+</div>
+
+<div class="footer">
+
+Made with ❤️ in Luxembourg.      Follow my startup on instagram : https://instagram.com/bubble.technology
+
+</div>
+
+</div>
+
+</body>
+</html>
